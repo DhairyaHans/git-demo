@@ -1,4 +1,4 @@
-def add(a, b, c, d):
-    return a+b+c+d
+def add(a, b):
+    return a+b
 
-print(add(1,2,3,4))
+print(add(1,2))
