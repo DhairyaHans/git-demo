@@ -3,6 +3,13 @@ def add(a):
     
 print(add(1))
 
+def multiply(*args) :
+    prod = 1
+    for a in args :
+        prod *= a
+    return prod
+        
 
-def mutiply(a,b) :
-    return a*b
+        
+
+
